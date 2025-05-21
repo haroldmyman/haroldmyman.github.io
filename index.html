@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizard's Fortune Teller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="wizard-dialogue">
+<p class="dialogue1">Think of a yes or no question...</p>
+<p class="dialogue2">then, click on the card that calls to you.</p>
+    </div>
+
+    <div class="container">
+        <h1>｡✧:˚*:･｡&#42;&#42611;Ask the Wizard&#42611;&#42;｡･:*˚:✧｡</h1>
+
+        <div class="image-buttons">
+            <img src="images/card.jpg" alt="show element1" onclick="showElement(1)">
+            <img src="images/card.jpg" alt="show element2" onclick="showElement(2)">
+            <img src="images/card.jpg" alt="show element3" onclick="showElement(3)">
+        </div>
+
+        <div id="elementContainer">
+            <div id="element1" class="toggle-element">
+                <h2 class="h2">&#x2727; &#x02da; &#x3000; &#x00b7; &#x3000; &#x3000;the wizard says... &#x002e;&#x3000;&#x3000;&#x00b7;&#x3000;&#x02da;&#x0020;&#x2727;</h2>
+                <p>"The stars are in alignment. Proceed with confidence, for the answer is yes."</p>
+            </div>
+            <div id="element2" class="toggle-element">
+                <h2 class="h2">&#x2727; &#x02da; &#x3000; &#x00b7; &#x3000; &#x3000;the wizard says... &#x002e;&#x3000;&#x3000;&#x00b7;&#x3000;&#x02da;&#x0020;&#x2727;</h2>
+                <p>"The mist is thick and the future uncertain. The answer is unclear, ask again later."</p>
+            </div>
+            <div id="element3" class="toggle-element">
+                <h2 class="h2">&#x2727; &#x02da; &#x3000; &#x00b7; &#x3000; &#x3000;the wizard says... &#x002e;&#x3000;&#x3000;&#x00b7;&#x3000;&#x02da;&#x0020;&#x2727;</h2>
+                <p>"Beware the path you tread. The omens do not favor you, the answer is no."</p>
+            </div>
+            <p>─── ･ ｡ﾟ☆: *.☽ .* :☆ﾟ. ───</p>
+        
+            <button id="refreshButton" onclick="refreshPage()" style="display: none;">TRY AGAIN</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+
+    font-family: "Cinzel Decorative";
+    color: brown;
+    margin: 0;
+    padding: 20px;
+    background-image: url('images/background.jpg');
+    background-size:cover;
+    background-position:unset;
+    background-repeat: no-repeat;
+}
+
+.wizard-dialogue {
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dialogue1 {
+    position:absolute;
+    left: 1030px;
+    top: 140px;
+}
+
+.dialogue2 {
+    position:absolute;
+    left: 1080px;
+    top: 190px;
+}
+
+.container {
+
+    margin: 310px 0px 0px 80px;
+    text-align: center; 
+    max-width: 800px;
+    background-color:#f9f9f9;
+    padding: 20px;
+    border: 5px dotted brown;
+}
+
+.image-buttons {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-buttons img {
+
+    width: 200px;
+    height: 300px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.image-buttons img:hover {
+
+    transform: scale(1.1);
+}
+
+.h2 {
+
+    text-transform: none;
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+}
+
+.toggle-element {
+
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+
+button#refreshButton {
+
+    color: brown;
+    font-size: 16px;
+    font-family: "Cormorant Garamond";
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+button#refreshButton:hover {
+
+    transform: scale(1.05);
+    color: white;
+    background-color: brown;
+}
+
